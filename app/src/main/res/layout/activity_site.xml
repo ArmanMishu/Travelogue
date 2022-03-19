@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SiteActivity">
+
+    <TextView
+        android:id="@+id/demo_site_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text=""
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        />
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/demo_image_slider"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_below="@+id/demo_site_name"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/amarhudachobi">
+
+    </com.denzcoskun.imageslider.ImageSlider>
+
+    <ScrollView
+        android:id="@+id/demo_site_activity_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/demo_image_slider"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trip Details"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/demotext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/demo_site_details_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/demo_site_activity_scroll"
+        android:layout_marginStart="13dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/demo_card_view"
+            android:layout_weight="1"
+            app:cardCornerRadius="4dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/demo_site_details_hotel_booking_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sitedetails_button"
+                android:text="Hotel Booking"
+                android:textSize="20dp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/demo_card_view_2"
+            android:layout_weight="1"
+            app:cardCornerRadius="4dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/site_activity_todo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sitedetails_button"
+                android:text="What To Do"
+                android:textSize="20dp"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/demo_emergency_call_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/demo_site_details_linear"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/emergency_call_button"/>
+
+</RelativeLayout>

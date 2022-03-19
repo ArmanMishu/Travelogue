@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "885588964429",
+    "project_id": "travelogue-eb427",
+    "storage_bucket": "travelogue-eb427.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885588964429:android:1d22651fa46d37ce401804",
+        "android_client_info": {
+          "package_name": "com.example.travelogue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885588964429-u7bldbt1hjis5dq928mosnv1mr64iqje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ4N57FXZprDqFKEvq3EuJXQNG7S2PfDA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885588964429-u7bldbt1hjis5dq928mosnv1mr64iqje.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885588964429:android:3f3052d3b79cd46e401804",
+        "android_client_info": {
+          "package_name": "com.example.travelogue_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885588964429-u7bldbt1hjis5dq928mosnv1mr64iqje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ4N57FXZprDqFKEvq3EuJXQNG7S2PfDA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885588964429-u7bldbt1hjis5dq928mosnv1mr64iqje.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.travelogue">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Travelogue">
+        <activity
+            android:name=".SiteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SiteActivity_Sajek"
+            android:exported="false" />
+        <activity
+            android:name=".SiteActivity_Kewkradong"
+            android:exported="false" />
+        <activity
+            android:name=".SiteActivity_Rangamati"
+            android:exported="false" />
+        <activity
+            android:name=".MuseumsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TownsNCitiesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AllPlacesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CulturalPlacesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HistoricalPlacesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SeasonalSpecial"
+            android:exported="false" />
+        <activity
+            android:name=".Popular_Places_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".StartActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

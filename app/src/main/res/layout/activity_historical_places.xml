@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HistoricalPlacesActivity">
+
+    <ImageView
+        android:id="@+id/historical_places_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/historical_places_activity"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+    <ScrollView
+        android:id="@+id/historical_places_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/historical_places_logo">
+
+        <LinearLayout
+            android:id="@+id/historical_places_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/ahsan_manjil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/ahsan_manjil" />
+            <Button
+                android:id="@+id/the_american_church"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/american_church" />
+
+            <Button
+                android:id="@+id/lalbagh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/lalbagh_fort" />
+
+            <Button
+                android:id="@+id/leberation_war_museum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/liberation_war_museum" />
+
+            <Button
+                android:id="@+id/somppura_mahavira"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/sompura_mahavira" />
+
+            <Button
+                android:id="@+id/saheed_minar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/saheed_minar" />
+
+            <Button
+                android:id="@+id/shat_gombuj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/shat_gombuj" />
+
+            <Button
+                android:id="@+id/panam_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/panam_city" />
+
+            <Button
+                android:id="@+id/mohasthanghar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/mohastangarh" />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

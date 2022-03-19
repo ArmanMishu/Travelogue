@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/main_activity_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/main_activity_logo"
+        />
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_activity_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/search_view"
+        android:text="Search"
+        android:textSize="18sp" />
+
+    <ScrollView
+        android:id="@+id/main_activity_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_button">
+
+        <LinearLayout
+            android:id="@+id/main_activity_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/popular_places_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/popular_places"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginHorizontal="25dp"
+                />
+            <Button
+                android:id="@+id/towns_cities"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/towns_n_cities"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginHorizontal="25dp"
+                />
+            <Button
+                android:id="@+id/historical_places"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/historical_places"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginHorizontal="25dp"
+                />
+            <Button
+                android:id="@+id/seasonal_special"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/seasonal_special"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginHorizontal="25dp"
+                />
+            <Button
+                android:id="@+id/museums"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/museums"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginHorizontal="25dp"
+                />
+            <Button
+                android:id="@+id/cultural_places"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cultural_places"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginHorizontal="25dp"
+                />
+            <Button
+                android:id="@+id/all_places"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/all_places"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginHorizontal="25dp"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/log_out_button"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        />
+
+
+
+
+</RelativeLayout>

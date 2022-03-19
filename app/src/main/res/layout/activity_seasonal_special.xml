@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SeasonalSpecial">
+    <ImageView
+        android:id="@+id/seasonal_special"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/seasonal_special_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+    <ScrollView
+        android:id="@+id/historical_places_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seasonal_special">
+
+        <LinearLayout
+            android:id="@+id/seasonal_special_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/bogalake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bogalake" />
+            <Button
+                android:id="@+id/kewkradong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/keokradong_seasonal" />
+
+            <Button
+                android:id="@+id/saint_martin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/saintmartin" />
+
+            <Button
+                android:id="@+id/marayontong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/marayongtong" />
+
+            <Button
+                android:id="@+id/sajek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/shajek_seasonal" />
+
+            <Button
+                android:id="@+id/sundarban"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/sundarbans" />
+
+            <Button
+                android:id="@+id/nilgiri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/nilgiri" />
+
+            <Button
+                android:id="@+id/coxsbazar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/coxsbazar" />
+
+            <Button
+                android:id="@+id/chandranath"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/chandranath_hill" />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

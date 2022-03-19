@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CulturalPlacesActivity">
+
+    <ImageView
+        android:id="@+id/culturalplaces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cultural_activity_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+    <ScrollView
+        android:id="@+id/historical_places_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/culturalplaces">
+
+        <LinearLayout
+            android:id="@+id/cultural_places_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/baytul_mukkaram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/baitul_mukkaram" />
+            <Button
+                android:id="@+id/dhakeshwari"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/dhakeshwari_mandir" />
+
+            <Button
+                android:id="@+id/national_memorial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/national_memorial" />
+
+            <Button
+                android:id="@+id/rabindranath_kuthibari"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rabindranath_kuthibari" />
+
+            <Button
+                android:id="@+id/kotila_mura"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/kotila_mura" />
+
+            <Button
+                android:id="@+id/old_dhaka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/old_dhaka" />
+
+
+
+            <Button
+                android:id="@+id/atiya"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/atiya_mosque" />
+
+            <Button
+                android:id="@+id/chandranath_temple"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/chandranath_temple" />
+            <Button
+                android:id="@+id/shalbon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/shalbon" />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

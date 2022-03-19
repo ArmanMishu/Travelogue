@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TownsNCitiesActivity">
+    <ImageView
+        android:id="@+id/towns_n_cities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/townsandcitiesactivitylogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+    <ScrollView
+        android:id="@+id/towns_n_cities_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/towns_n_cities">
+
+        <LinearLayout
+            android:id="@+id/towns_n_cities_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/dhaka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/dhaka_towns" />
+            <Button
+                android:id="@+id/sylhet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/sylhet_towns_n_cities" />
+
+            <Button
+                android:id="@+id/rajshahi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rajshahi_towns" />
+
+            <Button
+                android:id="@+id/chattogram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/chattogram_towns" />
+
+            <Button
+                android:id="@+id/rangamati"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rangamati_towns_n_cities" />
+
+            <Button
+                android:id="@+id/bagherhat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bagerhat_towns" />
+
+            <Button
+                android:id="@+id/gazipur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/gazipur_towns" />
+
+            <Button
+                android:id="@+id/panchgarh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/panchagarh_towns" />
+
+            <Button
+                android:id="@+id/tangail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/tangail_towns" />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

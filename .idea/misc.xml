@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Project backUp/Travelogue/app/src/main/res/layout/activity_all_places.xml" value="0.20416666666666666" />
+        <entry key="..\:/Project backUp/Travelogue/app/src/main/res/layout/activity_popular_places.xml" value="0.20416666666666666" />
+        <entry key="..\:/Project backUp/Travelogue/app/src/main/res/layout/activity_site.xml" value="0.20416666666666666" />
+        <entry key="..\:/Project backUp/Travelogue/app/src/main/res/layout/activity_site_details2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Project backUp/Travelogue/app/src/main/res/layout/allplacesrecycler.xml" value="0.20416666666666666" />
+        <entry key="..\:/Project backUp/Travelogue/app/src/main/res/layout/todo_custom_dialogue.xml" value="0.20416666666666666" />
+        <entry key="..\:/Project backUp/Travelogue/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Travelogue/app/src/main/res/drawable/search_view_bg.xml" value="0.2203125" />
+        <entry key="..\:/Travelogue/app/src/main/res/layout/activity_all_places.xml" value="0.25" />
+        <entry key="..\:/Travelogue/app/src/main/res/layout/activity_cultural_places.xml" value="0.20416666666666666" />
+        <entry key="..\:/Travelogue/app/src/main/res/layout/activity_historical_places.xml" value="0.20416666666666666" />
+        <entry key="..\:/Travelogue/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Travelogue/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Travelogue/app/src/main/res/layout/activity_museums.xml" value="0.20416666666666666" />
+        <entry key="..\:/Travelogue/app/src/main/res/layout/activity_popular_places.xml" value="0.20416666666666666" />
+        <entry key="..\:/Travelogue/app/src/main/res/layout/activity_registration.xml" value="0.20416666666666666" />
+        <entry key="..\:/Travelogue/app/src/main/res/layout/activity_seasonal_special.xml" value="0.20416666666666666" />
+        <entry key="..\:/Travelogue/app/src/main/res/layout/activity_site.xml" value="0.20416666666666666" />
+        <entry key="..\:/Travelogue/app/src/main/res/layout/activity_site_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Travelogue/app/src/main/res/layout/activity_site_details2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Travelogue/app/src/main/res/layout/activity_site_kewkradong.xml" value="0.20416666666666666" />
+        <entry key="..\:/Travelogue/app/src/main/res/layout/activity_site_rangamati.xml" value="0.20416666666666666" />
+        <entry key="..\:/Travelogue/app/src/main/res/layout/activity_site_sajek.xml" value="0.20416666666666666" />
+        <entry key="..\:/Travelogue/app/src/main/res/layout/activity_site_sitakundu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Travelogue/app/src/main/res/layout/activity_site_sreemangal.xml" value="0.20416666666666666" />
+        <entry key="..\:/Travelogue/app/src/main/res/layout/activity_site_sylhet.xml" value="0.20416666666666666" />
+        <entry key="..\:/Travelogue/app/src/main/res/layout/activity_splash_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Travelogue/app/src/main/res/layout/activity_start.xml" value="0.20416666666666666" />
+        <entry key="..\:/Travelogue/app/src/main/res/layout/activity_towns_ncities.xml" value="0.20416666666666666" />
+        <entry key="..\:/Travelogue/app/src/main/res/layout/allplacesrecycler.xml" value="0.20416666666666666" />
+        <entry key="..\:/Travelogue/app/src/main/res/menu/search_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/DCL/AndroidStudioProjects/Travelogue/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/DCL/AndroidStudioProjects/Travelogue/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/DCL/AndroidStudioProjects/Travelogue/app/src/main/res/layout/activity_popular_places.xml" value="0.1621376811594203" />
+        <entry key="..\:/Users/DCL/AndroidStudioProjects/Travelogue/app/src/main/res/layout/activity_registration.xml" value="0.18" />
+        <entry key="..\:/Users/DCL/AndroidStudioProjects/Travelogue/app/src/main/res/layout/activity_splash_screen.xml" value="0.18" />
+        <entry key="..\:/Users/DCL/AndroidStudioProjects/Travelogue/app/src/main/res/layout/activity_start.xml" value="0.10144927536231885" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
