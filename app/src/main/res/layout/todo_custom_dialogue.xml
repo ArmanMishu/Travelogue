@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/cd_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guidance"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:textColor="#E67E22"/>
+
+    <TextView
+        android:id="@+id/cd_tv_todo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cd_heading"
+        android:layout_marginTop="10dp"
+        android:text="What to Do :"
+        android:textColor="#E67E22"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cd_db_todo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cd_tv_todo"
+        android:layout_marginTop="10dp"
+        android:textColor="#E67E22"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/cd_tv_Nottodo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What Not to Do :"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="#E67E22"
+        android:layout_below="@+id/cd_db_todo"/>
+
+    <TextView
+        android:id="@+id/cd_db_Nottodo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cd_tv_Nottodo"
+        android:layout_marginTop="10dp"
+        android:textColor="#E67E22"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/cd_close_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cd_db_Nottodo"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:elevation="20dp"
+        android:text="Close"
+        android:textColor="#E67E22"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
