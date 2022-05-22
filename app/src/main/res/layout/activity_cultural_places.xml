@@ -82,7 +82,7 @@
 
 
             <Button
-                android:id="@+id/atiya"
+                android:id="@+id/atiya_mosque"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"

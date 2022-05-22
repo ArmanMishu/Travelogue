@@ -56,7 +56,6 @@ public class AllPlacesActivity extends AppCompatActivity {
         recyclerView.add(new ModelRecycler("Lal Bagh Fort"));
         recyclerView.add(new ModelRecycler("Sompura Mahavira"));
         recyclerView.add(new ModelRecycler("Khagrachari"));;
-        recyclerView.add(new ModelRecycler("The Liberation War Museum"));
         recyclerView.add(new ModelRecycler("Shat Gambuj Mosque"));
         recyclerView.add(new ModelRecycler("Panam City"));
         recyclerView.add(new ModelRecycler("Jashore"));

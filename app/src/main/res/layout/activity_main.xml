@@ -23,16 +23,26 @@
         android:layout_centerHorizontal="true"
         android:layout_marginHorizontal="25dp"
         android:layout_marginTop="10dp"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="5dp"
         android:background="@drawable/search_view"
         android:text="Search"
         android:textSize="18sp" />
+    <Button
+        android:id="@+id/demo_emergency_call_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/emergency_call_button" />
 
     <ScrollView
         android:id="@+id/main_activity_scroll"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/search_button">
+        android:layout_below="@+id/demo_emergency_call_button">
 
         <LinearLayout
             android:id="@+id/main_activity_linear_layout"
